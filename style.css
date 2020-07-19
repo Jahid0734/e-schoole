@@ -3,7 +3,7 @@ body{
 }
 .top-section{
     background: #F0FFF0;
-    height: 600px;
+    
     margin-bottom: 50px;
 }
 nav{
@@ -56,7 +56,7 @@ width: 380px;
     box-shadow: 0px 0px 15px -5px #d3d3d3bf;
 }
 .card h4{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
 }
 
@@ -105,12 +105,13 @@ width: 380px;
     margin-left: 150px;
 }
 .bottom-section{
-    height: 350px;
+    
     background: #282531;
     color: #FFFFFF;
 }
 .all-part{
     margin-top: 90px;
+    padding-bottom: 50px;
 }
 .course-list ul li a{
     color: #FFFFFF;
@@ -132,4 +133,106 @@ footer small{
 footer small a{
     text-decoration: none;
     color: #CDCDCD;
+}
+@media screen and (max-width: 576px ){
+    .img-fluid{
+        margin-top: 100px;
+    }
+    .card-box{
+        margin: 25px;
+        background: #F8FFFB;
+    }
+    .course-card{
+        margin: 25px;
+    }
+    .test-bio{
+        margin-left: 0;
+    }
+    .all-part{
+        margin: 50px;
+    }
+    .course-list h6{
+        color: red;
+    }
+}
+@media screen and (max-width:768px){
+    .top-section{
+        background: #F0FFF0;
+        
+        height: 550px;
+    }
+    .img-fluid{
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    .card-box{
+        
+        margin: 25px;
+    }
+    .card h4{
+        font-size: 16px;
+    }
+    .buy-now-button{
+        padding: 6px 15px;
+    }
+    .date{
+        flex-direction: column;
+    }
+    .started{
+        font-size: 13px;
+    }
+    .test-bio{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width:960px){
+.logo{
+    width: 80%;
+}
+.navbar{
+    margin-bottom: 40px;
+}
+.top-section{
+    height: 480px;
+}
+.img-fluid{
+    margin-left: 50px;
+    margin-top: 110px;
+}
+.card-box{
+    margin: 20px;
+}
+.date{
+    flex-direction: column;
+}
+.started{
+    font-size: 13px;
+}
+.test-bio{
+    margin-left: 65px;
+}
+.test-bio img{
+    width: 120px;
+}
+}
+@media screen and (min-width:1140px){
+    .logo{
+        width: 435px;
+    }
+    .top-section{
+        height: 580px;
+    }
+    .date{
+        flex-direction: row;
+    }
+    .test-bio{
+        margin-left: 140px;
+    }
+    .test-bio img{
+        width: 130px;
+    }
+    footer small{
+        font-size: 12px;
+        font-weight: 400;
+    }
 }
